@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>problem 2</title>
+</head>
+
+<body>
+    <h1>CODEWITHPRATIK</h1>
+    <header>
+        <section>
+            <p>
+            <h2>
+                Code in any c++ language that can count the number of digits.
+            </h2>
+            </p>
+            <p>
+                divide the number by 10 and increment ans variable by 1 till n>0
+            </p>
+        </section>
+    </header>
+
+    <main>
+        <p><b>Sample code</b></p>
+        <pre>
+            <code>
+  #include <iostream>
+  #include <math.h>
+  using namespace std;
+
+  int main()
+  {
+     int n;
+     cin>>n;
+     int ans=0;
+     while(n>0){
+         ans++;
+         n=n/10;
+     }
+  }        
+            </code>
+        </pre>
+        <p><b>Sample output</b></p>
+        <samp>
+        <pre>
+    Input n varaible from user
+    create while loop for n>0 :
+    divide n by 10
+    increment ans variable                           
+            </pre>
+        </samp>
+        <section>
+            <p>
+                <B>Variables used in program-</B>
+                <br>
+                In the above code total 2 variables used.
+                <br>
+                <var>n</var> stores the number whose digits are to be found
+                <br>
+                Simillarly <var>ans</var> stores the count of digits in the number
+                <br>
+            </p>
+            <p><B>Time Complexity-</B></p>
+            <p>Since there is one loop so time complexity of above code is O(no of digits of n)</p>
+        </section>
+        <hr>
+        <p>
+
+</body>
+
+</html>
